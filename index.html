@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    
+    <link rel="stylesheet" type="text/css" 
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário EBAC</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Formulário</h1>
+            <p>Preencha o formulário para concluir o cadastro.</p>
+        </div>
+    </header>
+    <section>
+        <form>
+            <div class="container">
+                <section>
+                    <h3>Dados Pessoais: </h3>
+                
+                    <div>
+                        <label for="nome">Nome Completo: </label> 
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="">
+                    </div>
+                    
+                    <div>
+                        <label for="telefone">Telefone: </label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="(00) 0 0000-0000">
+                    </div>
+                    
+                    <div>
+                        <label for="cpf">CPF: </label>
+                        <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00">
+                    </div>
+                    
+                </section>
+            
+                <section id="sectionEndereco">
+                    <div>
+                        <h3>Endereço: </h3>
+                        <div>
+                            <label for="rua">Rua: </label>
+                            <input type="text" name="rua" id="rua">
+                        </div>
+        
+                        <div>
+                            <label for="numero">Numero: </label>
+                            <input type="number" name="numero" id="numero">
+                        </div>
+        
+                        <div>
+                            <label for="bairro">Bairro: </label>
+                            <input type="text" name="bairro" id="bairro">
+                        </div>
+        
+                        <div>
+                            <label for="cidadeEstado">Cidade/Estado:</label>
+                            <input type="text" name="cidadeEstado" id="cidadeEstado">
+                        </div>
+    
+                        <div>
+                            <label for="cep">CEP: </label>
+                            <input type="number" name="cep" id="cep" placeholder="00.000-000">
+                        </div>
+                    </div>
+                </section>
+    
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="jquery.mask.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="messages_pt_BR.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

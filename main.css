@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 10%vh;
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+}
+
+header div {
+    padding: 0 200px ;
+}
+
+form {
+    margin-top: 30px;
+    padding: 0 200px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 25px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin: 6px 0;
+    padding: 5px;
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 200;
+}
+
+.container {
+    display: flex;
+    
+}
+
+#sectionEndereco { 
+    margin-left: 100px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: crimson;
+    color: #fff;
+    margin: 50px 0;
+    border: none;
+    border-radius: 5px;
+}
